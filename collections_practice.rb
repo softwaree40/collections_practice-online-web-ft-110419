@@ -39,3 +39,19 @@ def find_a(array)
   end
    return new_array
 end
+def sum_array(array)
+    new_array = 0
+  array.each do |num|
+    new_array+=num
+  end
+  return new_array
+end
+
+def add_s(array)
+     new_array = []
+    array.each_with_index do |word , idx |
+      new_array << word
+      binding.pry
+    end
+    return new_array
+end
